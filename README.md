@@ -19,7 +19,7 @@ Note that the version of PyTorch and PyTorch Geometric should be compatible and 
 ```linux
 bash run.sh
 ```
-![](./image/table.png)
+![](./image/table1.png)
 ![](./image/ablation.png)
 
 
@@ -27,4 +27,4 @@ bash run.sh
 ```linux
 bash run_ratio.sh
 ```
-![](./image/ratio.png)
+![](./image/ratio1.png)
