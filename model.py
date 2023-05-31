@@ -4,6 +4,7 @@ from torch_geometric.nn import GCNConv, MessagePassing
 from torch.nn import Linear
 from torch_geometric.utils import add_remaining_self_loops
 from torch_scatter import scatter_add
+import copy
 
 class GCN(torch.nn.Module):
     def __init__(self, args):
