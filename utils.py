@@ -7,6 +7,7 @@ import torch.nn.functional as F
 import random
 import torch.nn as nn
 import matplotlib.pyplot as plt
+import copy
 
 def gcn_norm(edge_index, edge_weight=None, num_nodes=None, improved=False,
              add_self_loops=True, dtype=None):
