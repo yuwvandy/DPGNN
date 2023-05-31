@@ -1,4 +1,4 @@
-echo "=====Cora====="
+echo "=====CORA====="
 echo "DPGCN w/o SSL + LP"
 python main.py --dataset='Cora' --shuffle='eval_total' --encoder='GCN' --label_prop='no' --ssl='no' --episodic_samp=1 --runs=20 --eta=3 --lamb1=10 --lamb2=10
 
@@ -15,7 +15,7 @@ echo "DPGCN"
 python main.py --dataset='Cora' --shuffle='eval_total' --encoder='GCN' --label_prop='yes' --ssl='yes' --episodic_samp=1 --runs=20 --eta=3 --lamb1=10 --lamb2=10
 
 
-echo "=====Citeseer====="
+echo "=====CITESEER====="
 echo "DPGCN w/o SSL + LP"
 python main.py --dataset='Citeseer' --shuffle='eval_total' --encoder='GCN' --label_prop='no' --ssl='no' --episodic_samp=1 --runs=20 --eta=5 --lamb1=10 --lamb2=10
 
@@ -34,7 +34,7 @@ python main.py --dataset='Citeseer' --shuffle='eval_total' --encoder='GCN' --lab
 
 
 
-echo "=====Pubmed====="
+echo "=====PUBMED====="
 echo "DPGCN w/o SSL + LP"
 python main.py --dataset='Pubmed' --shuffle='eval_total' --encoder='GCN' --label_prop='no' --ssl='no' --episodic_samp=1 --runs=20 --eta=1 --lamb1=10 --lamb2=10
 
