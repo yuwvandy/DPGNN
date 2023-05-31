@@ -1,5 +1,5 @@
 # DPGNN
-This repository is an official PyTorch(Geometric) implementation of DPGNN(DPGCN) in "Distance-wise Prototypical Graph Neural Network for Node Imbalance Classification"
+This repository is an official PyTorch(Geometric) implementation of DPGNN(DPGCN) in "Distance-wise Prototypical Graph Neural Network for Node Imbalance Classification".
 
 ![](./image/Framework.png)
 
