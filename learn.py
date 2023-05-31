@@ -1,5 +1,6 @@
 from utils import *
 import torch
+import copy
 
 def train(encoder, dist_encoder, prototype, data, optimizer, criterion, args):
     encoder.train()
