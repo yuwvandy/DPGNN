@@ -1,4 +1,4 @@
-echo "=====Cora====="
+echo "=====CORA====="
 echo "DPGCN"
 for ratio in 1 2 4 6 8 10
 do
@@ -6,7 +6,7 @@ do
     python main.py --dataset='Cora' --shuffle='eval_total' --encoder='GCN' --label_prop='yes' --ssl='yes' --episodic_samp=1 --runs=20 --eta=3 --lamb1=10 --lamb2=10 --imb_ratio=$ratio
 done
 
-echo "=====Citeseer====="
+echo "=====CITESEER====="
 echo "DPGCN"
 for ratio in 1 2 4 6 8 10
 do
@@ -16,7 +16,7 @@ done
 
 
 
-echo "=====Pubmed====="
+echo "=====PUBMED====="
 echo "DPGCN"
 for ratio in 1 2 4 6 8 10
 do
