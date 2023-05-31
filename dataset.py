@@ -6,6 +6,7 @@ import torch
 from utils import *
 import numpy as np
 from typing import Optional, Callable
+import copy
 
 
 class Twitch(InMemoryDataset):
